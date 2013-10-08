@@ -1,7 +1,7 @@
 ﻿package com.javapaul.chronometer.factorytimer
 
 {
-	import com.javapaul.util.DateConvert;
+	import com.javapaul.util.Converter;
 	import com.javapaul.chronometer.factorytimer.event.FactoryTimerCompleteEvent;
 	import com.javapaul.chronometer.factorytimer.event.FactoryTimerCurrentEvent;
 	import com.javapaul.chronometer.factorytimer.event.FactoryTimerInitEvent;
@@ -39,7 +39,7 @@
 		private function handlerTimer(event:TimerEvent)
 			:void{
 				
-				this.dispatchEvent(new FactoryTimerCurrentEvent(FactoryTimerCurrentEvent.CURRENT_TIMER,true,DateConvert.convertTime(timer.currentCount)));
+				this.dispatchEvent(new FactoryTimerCurrentEvent(FactoryTimerCurrentEvent.CURRENT_TIMER,true,Converter.convertTime(timer.currentCount)));
 				
 			}
 		private function handlerTimerComplete(event:TimerEvent)

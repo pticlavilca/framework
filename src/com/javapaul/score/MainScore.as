@@ -1,6 +1,6 @@
 package com.javapaul.score
 {
-	import com.javapaul.util.DateConvert;
+	import com.javapaul.util.Converter;
 	
 	import flash.events.EventDispatcher;
 	import flash.events.IEventDispatcher;
@@ -28,7 +28,7 @@ package com.javapaul.score
 				this.dispatchEvent(new ScoreEvent(ScoreEvent.SCORE, false));
 			}
 			
-			this.textField.text = DateConvert.converScore(this.zero,score); 
+			this.textField.text = Converter.converScore(this.zero,score);
 			
 		}
 		

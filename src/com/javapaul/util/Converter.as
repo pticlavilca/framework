@@ -1,8 +1,8 @@
 package com.javapaul.util
 {
-	public class DateConvert
+	public class Converter
 	{
-		public function DateConvert()
+		public function Converter()
 		{
 		}
 		public static function convertTime( number:Number )
