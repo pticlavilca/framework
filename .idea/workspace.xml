@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7573bda5-3c87-4f21-bfba-2959f90e3c13" name="Default" comment="" />
+    <list default="true" id="7573bda5-3c87-4f21-bfba-2959f90e3c13" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="framework.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380830652803" ignored="false" />
+    <file path="/Dummy.txt" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380909937170" ignored="false" />
     <file path="$PROJECT_DIR$/../test/src/Test.as" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380840881845" ignored="false" />
-    <file path="/fragment.js2" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380840604806" ignored="false" />
+    <file path="/fragment.js2" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380910749950" ignored="false" />
     <file path="$PROJECT_DIR$/../test/src/com/javapaul/test/model/Test.as" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380839526115" ignored="false" />
     <file path="/Test.as" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380839482931" ignored="false" />
     <file path="$PROJECT_DIR$/../test/.idea/workspace.xml" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380735520025" ignored="false" />
@@ -19,6 +22,11 @@
     <file path="/config.xml" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380840047078" ignored="false" />
     <file path="$PROJECT_DIR$/../test/config.xml" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380840049461" ignored="false" />
     <file path="/a.dummy" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380839468275" ignored="false" />
+    <file path="$PROJECT_DIR$/../iBook/src/com/javapaul/ibook/model/Activity.as" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380910670021" ignored="false" />
+    <file path="/Activity.as" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380910560856" ignored="false" />
+    <file path="$PROJECT_DIR$/../iBook/src/com/javapaul/ibook/load/Data.as" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380910824791" ignored="false" />
+    <file path="$PROJECT_DIR$/../iBook/Activity.xml" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380910883445" ignored="false" />
+    <file path="/Activity.xml" changelist="7573bda5-3c87-4f21-bfba-2959f90e3c13" time="1380910878055" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +41,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -69,6 +76,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -77,17 +85,7 @@
     <favorites_list name="framework" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Framework.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Framework.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="70" selection-end="70" vertical-scroll-proportion="0.15205725">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -114,8 +112,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -145,7 +143,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,40 +161,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="project.propCompiler" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -232,6 +219,19 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -260,24 +260,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="RemoteFlashRunConfigurationType" factoryName="Flash Remote Debug">
-      <option name="BCName" value="" />
-      <option name="moduleName" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -291,6 +273,11 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="RemoteFlashRunConfigurationType" factoryName="Flash Remote Debug">
+      <option name="BCName" value="" />
+      <option name="moduleName" value="" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -365,7 +352,7 @@
       <option name="launcherParameters">
         <LauncherParameters>
           <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="Player" />
+          <option name="launcherType" value="Browser" />
           <option name="playerPath" value="C:/Program Files (x86)/Adobe/Adobe Flash CS6/Players/Debug/FlashPlayerDebugger.exe" />
         </LauncherParameters>
       </option>
@@ -395,6 +382,24 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7573bda5-3c87-4f21-bfba-2959f90e3c13" name="Default" comment="" />
@@ -404,7 +409,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -423,7 +428,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1969112" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -505,11 +510,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Framework.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="70" selection-end="70" vertical-scroll-proportion="0.15205725">
+        <state line="4" column="34" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0981241">
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>4.6.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>framework</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>4.6.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
