@@ -14,10 +14,10 @@ public class CompleteEvent extends Event{
     public var isComplete:Boolean = false;
 
 
-    public function CompleteEvent(type:String,  _isComplete:Boolean) {
+    public function CompleteEvent(type:String,  _isComplete:Boolean){
+        super(type)
         this.isComplete = _isComplete;
 
-        super(type)
     }
 }
 }
