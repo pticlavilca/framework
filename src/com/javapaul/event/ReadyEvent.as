@@ -8,12 +8,12 @@
 package com.javapaul.event {
 import flash.events.Event;
 
-public class Ready extends Event{
+public class ReadyEvent extends Event{
 
-    private static const READY:String = "GO"
-    private var isReady:Boolean;
+    public static const READY:String = "GO"
+    public var isReady:Boolean;
 
-    public function Ready(type:String, _isReady:Boolean) {
+    public function ReadyEvent(type:String, _isReady:Boolean) {
         super(type);
         this.isReady = _isReady;
 

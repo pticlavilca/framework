@@ -8,8 +8,9 @@
 package com.javapaul.util {
 public class ArrayTools {
 
-    public static function randomSort(objA:Object, objB:Object):int{
-        return Math.round(Math.random() * 2) - 1;
+    public static function shuffleVector( a:Object, b:Object ):int
+    {
+        return Math.floor( Math.random() * 3 - 1 );
     }
 }
 }
