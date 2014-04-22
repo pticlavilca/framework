@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7573bda5-3c87-4f21-bfba-2959f90e3c13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javapaul/load/LoadVideoEventAS3.as" />
-      <change type="DELETED" beforePath="H:\Library\framework\src\com\javapaul\load\LoadVideo.as" afterPath="" />
-      <change type="DELETED" beforePath="H:\Library\framework\src\com\javapaul\load\LoadVideoEvent.as" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javapaul/load/LoadVideoFlash.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="framework.iws" />
@@ -69,21 +68,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoadVideoAS3.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/javapaul/load/LoadVideoAS3.as">
+      <file leaf-file-name="LoadVideoFlash.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/javapaul/load/LoadVideoFlash.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="26" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadVideoEventAS3.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/javapaul/load/LoadVideoEventAS3.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="1" selection-start="621" selection-end="621" vertical-scroll-proportion="0.5483871" vertical-offset="0" max-vertical-offset="744">
+            <state line="58" column="9" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.49731183" vertical-offset="582" max-vertical-offset="1445">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#70#101#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/com/javapaul/load/LoadVideoEvent.as" />
         <option value="$PROJECT_DIR$/src/com/javapaul/load/LoadVideo.as" />
         <option value="$PROJECT_DIR$/src/com/javapaul/load/LoadVideoEventAS3.as" />
+        <option value="$PROJECT_DIR$/src/com/javapaul/load/LoadVideoFlash.as" />
       </list>
     </option>
   </component>
@@ -366,12 +357,12 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\@projects\framework\src\com\javapaul\load" />
+    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="com.javapaul.load" />
       <recent name="com.javapaul.connect.socialmedia" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\@projects\framework\src\com\javapaul\load" />
     </key>
   </component>
   <component name="RunManager" selected="Flash App.framework">
@@ -664,7 +655,7 @@
       <changelist id="7573bda5-3c87-4f21-bfba-2959f90e3c13" name="Default" comment="" />
       <created>1380724915196</created>
       <updated>1380724915196</updated>
-      <workItem from="1398189708840" duration="673000" />
+      <workItem from="1398189708840" duration="4842000" />
     </task>
     <task id="LOCAL-00001" summary="add youtube class">
       <created>1383236796676</created>
@@ -674,11 +665,15 @@
       <created>1398190331443</created>
       <updated>1398190331443</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add youtube class&#10;">
+      <created>1398190398789</created>
+      <updated>1398190398789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="673000" />
+    <option name="totallyTimeSpent" value="4842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -726,7 +721,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="add youtube class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add youtube class" />
+    <MESSAGE value="add youtube class&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add youtube class&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -790,7 +786,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="69" selection-start="441" selection-end="441" vertical-scroll-proportion="0.51699466" vertical-offset="0" max-vertical-offset="0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -799,23 +795,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="62" selection-start="523" selection-end="523" vertical-scroll-proportion="0.51699466" vertical-offset="0" max-vertical-offset="0">
           <folding>
-            <element signature="e#197#225#0" expanded="true" />
+            <element signature="e#197#225#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javapaul/load/LoadVideoEventAS3.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="208" selection-end="208" vertical-scroll-proportion="0.1827957" vertical-offset="0" max-vertical-offset="744">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javapaul/load/LoadVideoAS3.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="26" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="27" column="26" selection-start="869" selection-end="869" vertical-scroll-proportion="0.5483871" vertical-offset="0" max-vertical-offset="744">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javapaul/load/LoadVideoEventAS3.as">
+    <entry file="file://$PROJECT_DIR$/src/com/javapaul/load/LoadVideoFlash.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="1" selection-start="621" selection-end="621" vertical-scroll-proportion="0.5483871" vertical-offset="0" max-vertical-offset="744">
+        <state line="58" column="9" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.49731183" vertical-offset="582" max-vertical-offset="1445">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#70#101#0" expanded="true" />
           </folding>
         </state>
       </provider>
